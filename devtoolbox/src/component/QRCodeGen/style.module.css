@@ -1,0 +1,67 @@
+.qrcontainer {
+    background-color: rgb(186, 202, 216);
+    padding: 20px;
+    margin: 0 auto;  /* Center horizontally */
+    width: 80%;       /* Flexible width */
+    max-width: 500px; /* Prevent it from becoming too large */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.design {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+input {
+    width: 100%;  /* Full width input for responsiveness */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #7f00ff;
+    border-radius: 6px;
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7f00ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #6200ea;
+}
+
+.qrVisible {
+    margin-top: 20px;
+    transition: filter 0.3s ease-in-out;
+    max-width: 100%;  /* Ensures QR code scales well */
+}
+
+.qrBlur {
+    filter: blur(10px);
+    opacity: 0.5;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 360px) {
+    .qrcontainer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input,
+    button {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
