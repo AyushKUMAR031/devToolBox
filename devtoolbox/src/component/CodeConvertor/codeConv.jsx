@@ -9,36 +9,6 @@ export default function CodeConverter() {
     const [targetLang, setTargetLang] = useState('java');
     const [loading, setLoading] = useState(false);
 
-    // const convertCode = async () => {
-    //     if (!inputCode.trim()) {
-    //         setOutputCode('// Please enter some code to convert.');
-    //         return;
-    //     }
-
-    //     setIsLoading(true);
-    //     try {
-    //         const res = await fetch('http://localhost:5000/convert', {
-    //             method: 'POST',
-    //             headers: { 'Content-Type': 'application/json' },
-    //             body: JSON.stringify({
-    //                 inputCode,
-    //                 sourceLang,
-    //                 targetLang,
-    //             }),
-    //         });
-
-    //         const data = await res.json();
-    //         if (res.ok) {
-    //             setOutputCode(data.outputCode);
-    //         } else {
-    //             setOutputCode(`// Error: ${data.error || 'Conversion failed.'}`);
-    //         }
-    //     } catch (err) {
-    //         setOutputCode(`// Server error: ${err.message}`);
-    //     } finally {
-    //         setIsLoading(false);
-    //     }
-    // };
 
     const handleConvert = async () => {
         setLoading(true);
