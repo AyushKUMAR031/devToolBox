@@ -15,6 +15,6 @@ DevToolbox is a powerful and handy developer utility web application that offers
 - **Frontend**: React.js | Vite
 - **Styling**: CSS Modules (Vanilla CSS)
 - **Backend**: Node.js | Express | axios
-- **Other Tools**: HuggingFace LLM | Js Libraries | Git | Docker
+- **Other Tools**: HuggingFace LLM Inference | Gemini DeepMinds Integration | Flask | Js Libraries | Git | Docker
 
 
