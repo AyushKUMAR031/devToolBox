@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: #ecf0f1;
+    background-color: #f8f3e3;
     padding: 30px;
     border-radius: 12px;
 }
@@ -23,7 +23,7 @@ textarea {
 }
 
 button {
-    background-color: #1abc9c;
+    background-color: #334656;
     color: #fff;
     border: none;
     padding: 10px 20px;

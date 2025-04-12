@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 3vh;
-  background-color: #ecf0f1;
+  background-color: #f8f3e3;
   border-radius: 2vh;
   width: 80vw;
   max-width: 800px;
@@ -30,7 +30,7 @@ textarea {
 }
 
 .compareBtn {
-  background-color: #1abc9c;
+  background-color: #2f4253;
   color: #fff;
   border: none;
   padding: 1.5vh 3vw;
@@ -42,7 +42,7 @@ textarea {
 }
 
 .compareBtn:disabled {
-  background-color: #95a5a6;
+  background-color: #6d7d8a;
   cursor: not-allowed;
 }
 
