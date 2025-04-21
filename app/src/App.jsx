@@ -33,7 +33,7 @@ function LandingPage() {
                     className="explore-button"
                     onClick={() => window.location.href = '/sidebar'}
                 >
-                    Explore
+                    Explore Tools
                 </button>
             </motion.div>
         </div>
