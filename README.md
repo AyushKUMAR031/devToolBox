@@ -2,7 +2,7 @@
 
 DevToolbox is a powerful and handy developer utility web application that offers a collection of tools like  `color converter`, `QR generator`, `code difference checker`, and `code converters` for multiple programming languages — all in one place.
 
-## 🚀 Features
+## 🚀 Feature
 
 - **Color Code Converter** – Convert between HEX, RGB, RGBA, HSL, and get the closest named color.
 - **Diff Checker** – Compare two blocks of code/text and visualize the differences.
