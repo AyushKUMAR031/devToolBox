@@ -21,7 +21,7 @@ export default function Sidebar() {
     return (
         <div className={sheet.container}>
             <div className={sheet.sidebar}>
-                <h2 className={sheet.title}>Tools</h2>
+                <h2 className={sheet.title}>Tools Ayush</h2>
                 <button onClick={() => setActiveTool('QRCodeGen')}>QR-Code Generator</button>
                 <button onClick={() => setActiveTool('DiffChecker')}>Diff Checker</button>
                 <button onClick={() => setActiveTool('CodeConverter')}>Code Converter</button>
